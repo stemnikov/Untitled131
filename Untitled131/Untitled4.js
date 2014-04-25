@@ -7,6 +7,7 @@ sw.onmessage = function ( e ) {
 sw.onerror= function ( e ) {
     resultLines += arguments[0].data.toString();
 };
+
 wait(1000);
 
 resultLines;
