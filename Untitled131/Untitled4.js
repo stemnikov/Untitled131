@@ -10,5 +10,3 @@ sw.onerror= function ( e ) {
 wait(1000);
 
 resultLines;
-
-
